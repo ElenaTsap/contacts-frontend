@@ -1,0 +1,36 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    
+}
+
+.wrapper > form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    padding: 10%;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper > form > * {
+	height: 30px;
+	min-width: 200px;
+	width: 30vw;
+	margin: 10px;
+}
+
+.wrapper > form > input:nth-of-type(4) {
+	background-color:salmon;
+	color: white;
+	font-weight: 600;
+}
+
+.wrapper > form > input:nth-of-type(5) {
+	background-color:seagreen;
+	color: white;
+	font-weight: 600;
+}
+

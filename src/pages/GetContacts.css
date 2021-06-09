@@ -1,0 +1,38 @@
+.get-contact {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.get-contact > h1 {
+	text-align: center;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	max-width: 480px;
+}
+
+.contact-form > * {
+	margin:12px;
+	height: 24px;
+}
+
+.contact-form > textarea {
+	height: 120px;
+}
+
+.contact-form > button {
+	height: 40px;
+	background-color: #ffc107 ;
+    border-radius: 24px;
+	cursor: pointer;
+}
+
+.contact-form > button:hover {
+	background-color: #ff6a07 ;
+}
